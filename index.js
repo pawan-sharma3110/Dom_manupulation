@@ -10,3 +10,15 @@ for (box of boxes) {
   index++;
   console.log(box);
 }
+
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click Me!";
+newBtn.style.color = "white";
+newBtn.style.backgroundColor = "red";
+let myBody = document.querySelector("body");
+myBody.prepend(newBtn);
+
+let para = document.querySelector(".paragraph");
+para.classList.add("my");
+
+console.log(para);

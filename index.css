@@ -1,7 +1,17 @@
-.box{
+.box {
     background-color: aquamarine;
     height: 100px;
-    width:150px;
+    width: 150px;
     margin: 10px;
     border: 2px solid black;
+}
+
+.paragraph {
+    background-color: aqua;
+    border: 2px solid black;
+    color: white;
+}
+
+.my {
+    background-color: red;
 }
